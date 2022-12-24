@@ -1,0 +1,62 @@
+[
+    {
+        "item": "Bootstrap",
+        "color": "purple"
+    },
+    {
+        "item": "Bash",
+        "color": "white"
+    },
+    {
+        "item": "JavaScript",
+        "color": "yellow"
+    },
+    {
+        "item": "React",
+        "color": "sky"
+    },
+    {
+        "item": "Redis",
+        "color": "red"
+    },
+    {
+        "item": "HTML",
+        "color": "red"
+    },
+    {
+        "item": "Express",
+        "color": "white"
+    },
+    {
+        "item": "Tailewind",
+        "color": "cyan"
+    },
+    {
+        "item": "Typescript",
+        "color": "blue"
+    },
+    {
+        "item": "Css",
+        "color": "sky"
+    },
+    {
+        "item": "Docker",
+        "color": "blue"
+    },
+    {
+        "item": "Git",
+        "color": "orange"
+    },
+    {
+        "item": "Linux",
+        "color": "white"
+    },
+    {
+        "item": "Nextjs",
+        "color": "white"
+    },
+    {
+        "item": "Nodejs",
+        "color": "green"
+    }
+]
