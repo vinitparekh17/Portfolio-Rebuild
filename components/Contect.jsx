@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs'
 
-export const Contect = () => {
+export default function Contect() {
     return (
         <div className='text-gray-200 my-8 pt-8 pb-1 flex-col bg-zinc-900 mx-6 rounded-xl filter shadow-md shadow-gray-300'>
             <div className="container px-6 mx-auto">

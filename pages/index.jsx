@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { Hero } from '../components/Hero';
-import { About } from '../components/About';
-import { Skills } from '../components/Skills';
-import { Projects } from '../components/Projects';
-import { Contect } from '../components/Contect';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Skills from '../components/Skills';
+import Projects from '../components/Projects';
+import Contect from '../components/Contect';
 
 export default function Home() {
   return (
