@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs';
 export default function Home() {
   const projects = [
     {
-        "title": "Browser based music player",
+        "title": "Music player",
         "link": "https://www.musify.vinitparekh.rocks/",
         "date": "28 March 2022",
         "path": "/images/Project 1.png"
