@@ -13,7 +13,7 @@ export default function Home() {
         "path": "/images/Project 1.png"
     },
     {
-        "title": "Spotify clone",
+        "title": "SpotifyWeb clone",
         "date": "27 April 2022",
         "path": "/images/Project 2.png"
     },
