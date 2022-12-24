@@ -147,7 +147,7 @@ const skills = [
       </Head>
       <main>
         <div className='flex justify-center flex-col lg:flex-row items-center'>
-          <div className='container mt-6 w-1/3'>
+          <div className='container mt-6 w-1/2'>
             <Image src={'/images/vinit nobg2.png'} alt={'Vinit Parekh'} layout='responsive' width={50} height={50} />
           </div>
           <div className='-mx-6 my-6 text-white text-center container w-1/2'>
