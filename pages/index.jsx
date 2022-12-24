@@ -1,12 +1,98 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import projects from "../Data/Projects.json";
-import skills from '../Data/Skills.json';
 import { Bootstrap, Bash, JavaScript, React, Redis, HTML, Express, Tailewind, Typescript, Css, Docker, Git, Linux, Nextjs, Nodejs } from '../components/Svgs';
 import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs';
 
 export default function Home() {
+  const projects = [
+    {
+        "title": "Browser based music player",
+        "link": "https://www.musify.vinitparekh.rocks/",
+        "date": "28 March 2022",
+        "path": "/images/Project 1.png"
+    },
+    {
+        "title": "Spotify clone",
+        "date": "27 April 2022",
+        "path": "/images/Project 2.png"
+    },
+    {
+        "title": "Multimedia Platform",
+        "date": "5 May 2022",
+        "path": "/images/Project 3.png"
+    },
+    {
+        "title": "Technetic",
+        "link": "https://www.technetic.co.in/",
+        "date": "26 Aug 2022",
+        "path": "/images/Project 4.png"
+    }
+]
+
+const skills = [
+  {
+      "item": "Bootstrap",
+      "color": "purple"
+  },
+  {
+      "item": "Bash",
+      "color": "white"
+  },
+  {
+      "item": "JavaScript",
+      "color": "yellow"
+  },
+  {
+      "item": "React",
+      "color": "sky"
+  },
+  {
+      "item": "Redis",
+      "color": "red"
+  },
+  {
+      "item": "HTML",
+      "color": "red"
+  },
+  {
+      "item": "Express",
+      "color": "white"
+  },
+  {
+      "item": "Tailewind",
+      "color": "sky"
+  },
+  {
+      "item": "Typescript",
+      "color": "blue"
+  },
+  {
+      "item": "Css",
+      "color": "sky"
+  },
+  {
+      "item": "Docker",
+      "color": "blue"
+  },
+  {
+      "item": "Git",
+      "color": "orange"
+  },
+  {
+      "item": "Linux",
+      "color": "white"
+  },
+  {
+      "item": "Nextjs",
+      "color": "white"
+  },
+  {
+      "item": "Nodejs",
+      "color": "green"
+  }
+]
+
   return (
     <>
       <Head>
