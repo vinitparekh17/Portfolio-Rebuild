@@ -14,14 +14,10 @@ export const Contect = () => {
                             I believes that every single minute of the life is precious so without wasting it let&apos;s make it meaningfull with joy, Are you passionate about it? Do you love Software developing as much as I do? let&apos;s talk togather and have a coffee togather!
                         </p>
                         <div className="flex justify-center text-2xl">
-                            <div>
                                 <div className='m-4'><Link href={'https://github.com/vinitparekh17'}><BsGithub /></Link></div>
                                 <div className='m-4 text-blue-600'><Link href={'https://www.linkedin.com/in/vinit-parekh-475154221'}><BsLinkedin /></Link></div>
-                            </div>
-                            <div>
                                 <div className='m-4 text-sky-400'><Link href={'https://twitter.com/Vinitparekh17?s=09'}><BsTwitter /></Link></div>
                                 <div className='m-4 text-purple-400'><Link href={'https://www.instagram.com/mr.parekh_17'}><BsInstagram /></Link></div>
-                            </div>
                         </div>
                     </div>
                     <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">

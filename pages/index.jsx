@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
         <main>
           <div className='flex justify-center flex-col lg:flex-row items-center'>
-            <div className='w-1/3 mt-6'>
+            <div className='md:w-1/2 w-full mt-6'>
               <Image src={'/images/vinit nobg2.png'} alt={'Vinit Parekh'} layout='responsive' width={50} height={50} />
             </div>
             <div className='mx-2 my-6 text-white'>
@@ -34,7 +34,7 @@ export default function Home() {
               <div className='md:w-[25%] w-[96%] mx-[2%] my-3 rounded-md'>
                 <Image src={'/images/Vinit modrn.png'} alt={'Vinit Parekh'} layout='responsive' width={5} height={5} />
               </div>
-              <div className='md:w-[48%] w-auto px-2 text-lg m-[1%] h-auto leading-7'>
+              <div className='md:w-[48%] w-full px-2 text-base md:text-xl m-[1%] h-auto leading-7'>
                 <p>
                   I&apos;m Vinit Parekh from India. I live in Surat city. I like to travel and feel the beauty of nature. I believes in simplicity. I&apos;m unique minded person who likes to think beyond others.
                 </p>
@@ -52,7 +52,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className='font-semibold'>Email:</td>
-                    <td><Link href={'mailto:vinitparekh1742@gmail.com'}>vinitparekh1742@gmail.com</Link></td>
+                    <td className='md:text-base text-sm'><Link href={'mailto:vinitparekh1742@gmail.com'}>vinitparekh1742@gmail.com</Link></td>
                   </tr>
                 </table>
               </div>
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
             </center>
           </div>
-          <div className='text-white my-8 py-6 px-8 flex-col bg-zinc-900 mx-6 rounded-xl filter drop-shadow-white'>
+          <div className='text-white my-8 py-2 flex-col bg-zinc-900 mx-6 rounded-xl filter drop-shadow-white'>
             <Contect />
             </div>
         </main>
