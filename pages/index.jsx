@@ -206,14 +206,13 @@ const skills = [
         </div>
 
         <div className='text-gray-200 mt-8 py-6 px-8 flex-col bg-zinc-900 mx-6 rounded-xl filter shadow-sm shadow-gray-300'>
-          <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
             {projects.map((project, index) => (
               <div key={index} className="rounded-lg m-5 shadow-md hover:shadow-lg bg-[#262626] shadow-yellow-600 hover:shadow-gray-400 max-w-sm">
                 <Image src={project.path} className="rounded-t-lg" layout="responsive" width={5} height={3} alt="alt" />
                 <div className="p-6">
                   <h5 className="text-white text-xl font-medium mb-2">{project.title}</h5>
-                  {/* <p className="text-gray-400 text-base mb-4">
-                            </p> */}
+                  {/*  */}
                   <div>
                     {project.link !== undefined ? <span className="text-blue-500"><Link href={project.link}>Live Preview</Link></span> : <span className="text-gray-500">Unavailable</span>}
                     <span className="text-gray-500 float-right">{project.date}</span>
