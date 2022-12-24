@@ -11,7 +11,7 @@ export const Contect = () => {
                     <div className="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
                         <h2 className="bg-gradient-to-r from-green-500 to-teal-400 text-transparent bg-clip-text font-bold text-2xl mb-6">Contact</h2>
                         <p className="text-gray-200 mb-6">
-                            I believes that every single minute of the life is precious so without wasting it let's make it meaningfull with joy, Are you passionate about it? Do you love Software developing as much as I do? let's talk togather and have a coffee togather!
+                            I believes that every single minute of the life is precious so without wasting it let&apos;s make it meaningfull with joy, Are you passionate about it? Do you love Software developing as much as I do? let&apos;s talk togather and have a coffee togather!
                         </p>
                         <div className="flex justify-center text-2xl">
                             <div>
