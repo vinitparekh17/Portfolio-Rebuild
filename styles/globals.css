@@ -2,11 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-td{
+td {
     margin: 0 10px;
-    padding: 5px;
+    padding: 6px;
 }
 
-body{
+body {
     background-color: #000;
+}
+
+
+.drop-shadow-white {
+    filter: drop-shadow(0 0 7px #cfcfcf)
+}
+
+.drop-shadow-green {
+    filter: drop-shadow(0 0 7px #15a815)
+}
+
+.drop-shadow-red {
+    filter: drop-shadow(0 0 7px #ff0000)
+}
+
+.drop-shadow-blue {
+    filter: drop-shadow(0 0 7px #0000ff)
+}
+
+.drop-shadow-yellow {
+    filter: drop-shadow(0 0 7px #ffff00)
+}
+
+.drop-shadow-purple {
+    filter: drop-shadow(0 0 7px #bc48ff)
+}
+
+.drop-shadow-orange {
+    filter: drop-shadow(0 0 7px #ffa500)
+}
+
+.drop-shadow-sky {
+    filter: drop-shadow(0 0 7px #00ffff)
+}
+
+.drop-shadow-white:hover {
+    filter: drop-shadow(0 0 1rem #cfcfcf)
+}
+
+.drop-shadow-green:hover {
+    filter: drop-shadow(0 0 1rem #15a815)
+}
+
+.drop-shadow-red:hover {
+    filter: drop-shadow(0 0 1rem #ff0000)
+}
+
+.drop-shadow-blue:hover {
+    filter: drop-shadow(0 0 1rem #0000ff)
+}
+
+.drop-shadow-yellow:hover {
+    filter: drop-shadow(0 0 1rem #ffff00)
+}
+
+.drop-shadow-purple:hover {
+    filter: drop-shadow(0 0 1rem #bc48ff)
+}
+
+.drop-shadow-orange:hover {
+    filter: drop-shadow(0 0 1rem #ffa500)
+}
+
+.drop-shadow-sky:hover {
+    filter: drop-shadow(0 0 1rem #00ffff)
 }
