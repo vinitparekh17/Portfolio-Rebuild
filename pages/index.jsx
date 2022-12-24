@@ -23,7 +23,7 @@ export default function Home() {
         "path": "/images/Project 3.png"
     },
     {
-        "title": "Technetic",
+        "title": "Technetic Application",
         "link": "https://www.technetic.co.in/",
         "date": "26 Aug 2022",
         "path": "/images/Project 4.png"
