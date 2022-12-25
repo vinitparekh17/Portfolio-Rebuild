@@ -17,7 +17,7 @@ body {
 }
 
 .drop-shadow-green {
-    filter: drop-shadow(0 0 7px #15a815)
+    filter: drop-shadow(0 0 7px #44ff44)
 }
 
 .drop-shadow-red {
@@ -49,7 +49,7 @@ body {
 }
 
 .drop-shadow-green:hover {
-    filter: drop-shadow(0 0 1rem #15a815)
+    filter: drop-shadow(0 0 1rem #5dff5d)
 }
 
 .drop-shadow-red:hover {
