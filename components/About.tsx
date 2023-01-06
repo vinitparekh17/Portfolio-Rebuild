@@ -1,6 +1,8 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Alfa, changa } from './Fonts/Fonts'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Alfa, changa } from './Fonts/Fonts';
+
 export const About = () => {
     return(
         <div className='bg-zinc-900 mx-6 p-2  text-gray-200 rounded-xl filter shadow-sm shadow-gray-300'>

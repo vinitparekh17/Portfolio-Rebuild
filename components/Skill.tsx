@@ -1,4 +1,5 @@
-import { Bootstrap, Bash, JavaScript, React, Redis, HTML, Express, Tailewind, Typescript, Css, Docker, Linux, Nextjs, Nodejs, Git } from './Svgs'
+import React from 'react';
+import { Bootstrap, Bash, JavaScript, ReactIcon, Redis, HTML, Express, Tailewind, Typescript, Css, Docker, Linux, Nextjs, Nodejs, Git } from './Svgs';
 import skills from '../Data/Skills.json';
 import { Alfa } from './Fonts/Fonts';
 export const Skill = () => {
@@ -10,7 +11,7 @@ export const Skill = () => {
                     {skills.map((data, index) => {
                         return (
                             <div key={index} data-aos="zoom-in" data-aos-duration="3000" className={`flex flex-col items-center drop-shadow-${data.color}`}>
-                                {data.item === 'Bootstrap' ? <Bootstrap /> : data.item === 'Bash' ? <Bash /> : data.item === 'JavaScript' ? <JavaScript /> : data.item === 'React' ? <React /> : data.item === 'Redis' ? <Redis /> : data.item === 'HTML' ? <HTML /> : data.item === 'Express' ? <Express /> : data.item === 'Tailewind' ? <Tailewind /> : data.item === 'Typescript' ? <Typescript /> : data.item === 'Css' ? <Css /> : data.item === 'Docker' ? <Docker /> : data.item === 'Git' ? <Git /> : data.item === 'Linux' ? <Linux /> : data.item === 'Nextjs' ? <Nextjs /> : data.item === 'Nodejs' ? <Nodejs /> : ''}
+                                {data.item === 'Bootstrap' ? <Bootstrap /> : data.item === 'Bash' ? <Bash /> : data.item === 'JavaScript' ? <JavaScript /> : data.item === 'React' ? <ReactIcon /> : data.item === 'Redis' ? <Redis /> : data.item === 'HTML' ? <HTML /> : data.item === 'Express' ? <Express /> : data.item === 'Tailewind' ? <Tailewind /> : data.item === 'Typescript' ? <Typescript /> : data.item === 'Css' ? <Css /> : data.item === 'Docker' ? <Docker /> : data.item === 'Git' ? <Git /> : data.item === 'Linux' ? <Linux /> : data.item === 'Nextjs' ? <Nextjs /> : data.item === 'Nodejs' ? <Nodejs /> : ''}
                                 <p className='text-sm mt-1'>{data.item}</p>
                             </div>
                         )

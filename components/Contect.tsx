@@ -1,6 +1,7 @@
-import Link from 'next/link'
-import { Alfa, changa } from './Fonts/Fonts'
-import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs'
+import React from 'react';
+import Link from 'next/link';
+import { Alfa, changa } from './Fonts/Fonts';
+import { BsGithub, BsLinkedin, BsTwitter, BsInstagram } from 'react-icons/bs';
 export const Contect = () => {
     return (
         <div className='text-gray-200 my-8 pt-8 pb-1 flex-col bg-zinc-900 mx-6 rounded-xl filter shadow-md shadow-gray-300'>
@@ -28,7 +29,7 @@ export const Contect = () => {
                                     <input type="email" className="form-control block w-full px-3 py-1.5 text-base font-normal border sm:text-md focus:ring-blue-500 bg-gray-700 border-gray-600 placeholder-gray-200 text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded transition ease-in-out m-0 focus:text-gray-50 focus:bg-gray-500 focus:border-blue-600 focus:outline-none" placeholder="Email address" />
                                 </div>
                                 <div className="form-group mb-6">
-                                    <textarea className="form-control block w-full px-3 py-1.5 text-base font-normal rounded-lg border sm:text-md focus:ring-blue-500 bg-gray-700 border-gray-600 placeholder-gray-200 text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 transition ease-in-out m-0 focus:text-gray-50 focus:bg-gray-500 focus:border-blue-600 focus:outline-none" rows="3" placeholder="Message"></textarea>
+                                    <textarea className="form-control block w-full px-3 py-1.5 text-base font-normal rounded-lg border sm:text-md focus:ring-blue-500 bg-gray-700 border-gray-600 placeholder-gray-200 text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 transition ease-in-out m-0 focus:text-gray-50 focus:bg-gray-500 focus:border-blue-600 focus:outline-none" rows={3} placeholder="Message"></textarea>
                                 </div>
                                 <button type="submit" className="w-full px-6 py-2.5 bg-gradient-to-r from-green-500 to-teal-400 text-white  font-medium text-xs leading-tight uppercase rounded shadow-md shadow-green-600 hover:shadow-none transition duration-150 ease-in-out">Send</button>
                             </form>

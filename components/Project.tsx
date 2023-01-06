@@ -1,7 +1,9 @@
-import projects from '../Data/Projects.json'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Alfa, roboto } from './Fonts/Fonts'
+import React from 'react';
+import projects from '../Data/Projects.json';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Alfa, roboto } from './Fonts/Fonts';
+
 export const Project = () => {
     return (
         <div className='text-gray-200 mt-8 py-6 px-8 flex-col bg-zinc-900 mx-6 rounded-xl filter shadow-sm shadow-gray-300'>

@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+import { AppProps } from 'next/app';
+import React, { useEffect } from 'react';
 import "aos/dist/aos.css";
 import '../styles/globals.css';
 import Aos from 'aos';
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, [])

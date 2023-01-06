@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function Bash() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"
@@ -221,7 +223,7 @@ export function Nodejs() {
     )
 }
 
-export function React() {
+export function ReactIcon() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"
             viewBox="0 0 256 256">

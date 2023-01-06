@@ -1,5 +1,6 @@
-import Image from "next/image"
-import { Alfa, roboto } from './Fonts/Fonts'
+import React from 'react';
+import Image from "next/image";
+import { Alfa, roboto } from './Fonts/Fonts';
 export const Hero = () => {
     return (
         <div className="flex justify-center items-center">
