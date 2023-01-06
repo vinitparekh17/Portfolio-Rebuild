@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
 import { Alfa, changa } from './Fonts/Fonts';
@@ -32,13 +32,15 @@ export const Contect = () => {
             email: '',
             msg: ''
         });
+    }
 
+    useEffect(() => {
         setTimeout(() => {
             if (response) {
                 setResponse(null);
             }
-        }, 3000);
-    }
+        }, 2000);
+    }, [response])
 
     return (
         <div className='text-gray-200 my-8 pt-8 pb-1 flex-col bg-zinc-900 mx-6 rounded-xl filter shadow-md shadow-gray-300'>
