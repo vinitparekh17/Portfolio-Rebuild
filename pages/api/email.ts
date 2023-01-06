@@ -5,7 +5,6 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
   try {
     if(req.method === 'POST') {
       const { name, email, msg } = req.body;
-      console.log(name, email, msg);
       
       recieveEmail(name, email, msg)
       .then((result) => {

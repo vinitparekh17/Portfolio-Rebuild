@@ -16,8 +16,6 @@ export const Contect = () => {
             ...data,
             [e.target.name]: e.target.value
         });
-        console.log(data);
-
     }
 
     const handleSubmit = (e: any) => {
